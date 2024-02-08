@@ -1,0 +1,178 @@
+/* .popular-games{
+    background-color: aqua;
+    margin: auto;
+    width: auto;
+} */
+
+.card{
+    background-color: #150e36;
+}
+
+.custom-card{
+    margin-right: 5px; /* Atur nilai jarak ke tepi kanan */
+    margin-left: 50px;  /* Atur nilai jarak ke tepi kiri */
+}
+
+.card img{
+    width: 150px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+    margin-top: -20px;
+    border-top-left-radius: 32px; 
+    border-top-right-radius: 32px; 
+    border-bottom-right-radius: 32px; 
+    border-bottom-left-radius: 32px;
+}
+
+body{
+    background-color: #070221;
+}
+
+.custom-button {
+    width: 100px; /* Ganti dengan ukuran yang diinginkan */
+    height: 40px; /* Ganti dengan ukuran yang diinginkan */
+    background-color: transparent; /* Menghilangkan warna latar belakang */
+    border: 2px solid orange; /* Menambah border dengan warna orange */
+    color: orange; /* Warna teks orange */
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi saat hover */
+}
+
+.custom-button:hover {
+    background-color: orange; /* Warna latar belakang saat hover */
+    color: white; /* Warna teks putih saat hover */
+}
+
+
+/* Gaya scrollbar horizontal */
+.overflow-auto::-webkit-scrollbar {
+    height: 10px; /* Ubah tinggi scrollbar sesuai kebutuhan */
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+    background-color: orange; /* Warna thumb (bagian yang dapat digerakkan) */
+    border-radius: 5px; /* Lengkungan sudut thumb */
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Warna track (area latar belakang scrollbar) */
+    border-radius: 5px; /* Lengkungan sudut track */
+}
+
+.category{
+    list-style: none;
+    display: flex;
+    margin-left: -20px;
+    margin-top: 50px;
+}
+
+.category li{
+    margin-left: 10px;
+    
+}
+
+.category li a{
+    text-decoration: none;
+}
+
+/* Mengatasi warna default tautan */
+.category-link {
+    color: white !important; /* Menetapkan warna default teks tautan menjadi putih */
+}
+
+/* Mengatasi warna default tautan aktif */
+.category-link.active {
+    color: orange !important; /* Menetapkan warna default teks tautan aktif menjadi orange */
+}
+
+/* .cc{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: #150e36;
+} */
+
+.hubungi-kami-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+}
+
+/* Setiap div yang berisi ikon dan teks */
+.hubungi-kami-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ikon */
+.hubungi-kami-icon {
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+}
+
+/* Teks */
+.hubungi-kami-text {
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+}
+
+.hubungi-kami-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* .subcription{
+    width: 100%;
+    height: auto;
+    background-color: orange;
+} */
+
+.subcription {
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+    max-height: 250px;
+}
+
+/* Styles untuk ikon */
+    ion-icon {
+    font-size: 36px; /* Ukuran ikon */
+    margin: 10px; /* Ruang di sekitar ikon */
+    display: inline-block; /* Agar ikon dapat diposisikan secara horizontal */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.social-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    background-color: #070221;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Menambahkan jarak antara elemen */
+footer p {
+    margin-bottom: 10px; /* Sesuaikan dengan jarak yang diinginkan */
+}
+
