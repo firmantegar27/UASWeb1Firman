@@ -1,4 +1,4 @@
-Pertama Extract web-topup-game.rar
+Pertama Extract file nya terlebih dahulu
 
 Sebelum run project nya, persyaratan untuk menjalankan project laravel ini harus menginstall composer di laptop/PC
 (Downlaod di https://getcomposer.org/)
