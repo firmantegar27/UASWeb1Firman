@@ -1,4 +1,4 @@
-Pertama Extract file nya terlebih dahulu
+Pertama Extract file nya terlebih dahulu, lalu buat database dengan nama iudex_gaming_store dan import database yg berada di folder sql
 
 Sebelum run project nya, persyaratan untuk menjalankan project laravel ini harus menginstall composer di laptop/PC
 (Downlaod di https://getcomposer.org/)
